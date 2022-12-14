@@ -8,8 +8,8 @@ public class Pizza {
     private boolean ischeeseadded = false;
     private boolean istoppingsadded = false;
     private boolean istakeaway = false;
-    private int toppingsprice = 0;
-    private int cheeseprice = 0;
+    private int toppingsprice;
+    private int cheeseprice = 80;
     private int paperbag = 20;
     private int veg = 300;
     private int nonveg = 400;
