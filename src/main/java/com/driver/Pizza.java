@@ -50,6 +50,7 @@ public class Pizza {
                 this.toppingsprice = 120;
                 this.price+=this.toppingsprice;
             }
+            istoppingsadded = true;
         }
         
     }
@@ -65,7 +66,7 @@ public class Pizza {
     public String getBill(){
         // your code goes here
         if(isbill==false){
-         bill = "Base Price Of The Pizza: "+ this.initialprice+"\n";
+         bill = "Base Price Of The Pizza: "+this.initialprice+"\n";
          bill+="Extra Cheese Added: "+this.cheeseprice+"\n";
          bill+="Extra Toppings Added: "+this.toppingsprice+"\n";
          bill+="Paperbag Added: "+this.paperbag+"\n";
